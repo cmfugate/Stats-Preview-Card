@@ -1,0 +1,107 @@
+
+
+
+body {
+     color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    background-color: hsl(233, 47%, 7%);
+}
+
+h1 {
+    color: hsl(0, 0%, 100%);
+    font-family: "Inter-Bold";
+    font-size: 35px;
+   
+}
+
+.Paragraph {
+    font-family: "Inter-Regular";
+    font-weight: 400;
+    display: font;
+    justify-content: flex-start;
+    line-height: 25px;
+}
+
+
+.grid-container {
+    width: 75%;
+    background-color: hsl(244, 38%, 16%);
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0px;
+    margin: 170px;
+}
+
+.container-left {
+    padding: 60px 80px;
+    
+}
+
+.table {
+    padding: 40px 0 0 0;
+}
+
+.top-row {
+    color: hsl(0, 0%, 100%);
+    font-family: "Inter-Bold";
+    font-size: 22px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.bottom-row{
+    color: hsla(0, 0%, 100%, 0.6);
+    font-family: "LexendDeca-Regular";
+    font-weight: 400;
+    font-size: 12px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.COMPANIES {
+display: inline-block;
+line-height: 5px;
+padding-right: 50px;
+}
+
+.TEMPLATES { 
+    display: inline-block;
+    line-height: 5px;
+    padding-right: 50px;
+}
+
+.QUERIES {
+    display: inline-block;
+    line-height: 5px;
+}
+
+.container-right {
+    /* background-image: url('images/image-header-desktop.jpg'); */
+    display: 100%;
+    background-color: hsl(277, 64%, 61%);
+    /* background-blend-mode: multiply; */
+    
+    
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    border-radius: 0px 5px 5px 0px;
+    background: rgba(0,255,255, 0.5);
+    transition: all .3s linear;
+    /* color: tint(#aa5cdb, 50%); */
+    /* filter: contrast(75%);
+    opacity: 80%; */
+}
+
+ /* .wrapper { 
+    width: 1140px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.wrapper > div {
+    flex: 1 1 720px
+} */
